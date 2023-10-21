@@ -1,4 +1,10 @@
 @media screen and (min-width: 412px) {
+  .page-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 61px;
+  }
+
   .price-section-title {
     color: #22343d;
     font-size: 34px;
@@ -12,10 +18,24 @@
     margin-bottom: 74px;
   }
 
-  .price-section-item {
+  .price-section-item-container {
+    height: 456px;
+    margin-bottom: 32px;
     border-radius: 8px;
     background: #fff;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  /* .price-section-item {
+    height: 456px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+  } */
+  .price-section-item-container:hover,
+  .price-section-item-container:focus {
+    background-color: #02897a;
   }
 
   .price-list-title {
@@ -23,6 +43,7 @@
     font-weight: 700;
     line-height: 1.7em;
     text-align: center;
+    padding-top: 24px;
   }
 
   .price-list-text {
@@ -30,6 +51,26 @@
     font-weight: 400;
     line-height: 2.5em;
     text-align: center;
+  }
+
+  .price-wrap {
+    margin: 16px 86px 16px 83px;
+    /* margin-bottom: 16px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 154px;
+  }
+
+  .number-wrap {
+    float: left;
+    width: 50%;
+  }
+
+  .price-container {
+    float: left;
+    width: 50%;
+    padding-top: 24px;
   }
 
   .price-item-number {
@@ -40,4 +81,63 @@
     line-height: 1.3em;
     letter-spacing: 0.002;
   }
+
+  .price-item-currency {
+    color: #02897a;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.25em;
+    letter-spacing: 0.004;
+  }
+
+  .price-item-month {
+    color: var(--second-text, #afafaf);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.18em;
+    letter-spacing: 0.006;
+    min-width: 96px;
+  }
+
+  .price-list-wrap {
+    margin-bottom: 16px;
+  }
+
+  .list-text {
+    color: #22343d;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.38em;
+    letter-spacing: 0.01;
+    text-align: center;
+    padding-bottom: 16px;
+  }
+
+  .price-section-btn {
+    min-width: 149px;
+    height: 44px;
+    display: flex;
+    padding: 11px 19px 11px 18px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #02897a;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    margin: 0 auto;
+  }
+
+  .price-section-btn:hover,
+  .price-section-btn:focus {
+    background-color: #fff;
+    color: #02897a;
+  }
+}
+
+@media screen and (min-width: 1150px) {
 }
