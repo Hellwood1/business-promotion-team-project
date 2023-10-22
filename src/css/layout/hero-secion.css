@@ -81,9 +81,21 @@
     color: #045c52;
 }
 
-.hero-section-link::before {
-    content: "";
+.hero-section-link-container {
+    display: flex;
 }
+
+.hero-section-link-svg {
+    margin-right: 9px;
+    stroke: var(--dark-green);
+}
+
+/* .hero-section-link::before {
+    content: url("/img/sprite.svg#arrow-icon");
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+} */
 
 /* =============== Desktop ===============*/
 
