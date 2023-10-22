@@ -1,19 +1,19 @@
 /* Base */
-@import url(./base/common.css);
-@import url(./base/container.css);
+@import url('./base/common.css');
+@import url('./base/container.css');
 
 /* Uilites */
-@import url(./utils/variables.css);
-@import url(./utils/visually-hidden.css);
+@import url('./utils/variables.css');
+@import url('./utils/visually-hidden.css');
 
 /* Layout */
-@import url(./layout/header.css);
-@import url(./layout/hero-secion.css);
-@import url(./layout/feature-section.css);
-@import url(./layout/benefits-section.css);
-@import url(./layout/newsfeed-section.css);
-@import url(./layout/price-section.css);
-@import url(./layout/feedback-section.css);
-@import url(./layout/promo-section.css);
-@import url(./layout/footer.css);
-@import url(./layout/mobile-menu.css);
+@import url('./layout/header.css');
+@import url('./layout/hero-secion.css');
+@import url('./layout/feature-section.css');
+@import url('./layout/benefits-section.css');
+@import url('./layout/newsfeed-section.css');
+@import url('./layout/price-section.css');
+@import url('./layout/feedback-section.css');
+@import url('./layout/promo-section.');
+@import url('./layout/footer.css');
+@import url('./layout/mobile-menu.css');
