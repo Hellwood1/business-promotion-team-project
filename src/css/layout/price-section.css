@@ -19,11 +19,12 @@
   }
 
   .price-section-item {
-    height: 456px;
+    /* height: 456px; */
     margin-bottom: 32px;
     border-radius: 8px;
     background: #fff;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+    padding: 32px 74px;
   }
 
   .price-section-item:hover,
@@ -71,7 +72,7 @@
     font-weight: 700;
     line-height: 1.7em;
     text-align: center;
-    padding-top: 24px;
+    margin-bottom: 8px;
   }
 
   .price-list-text {
@@ -82,23 +83,17 @@
   }
 
   .price-wrap {
-    margin: 16px 86px 16px 83px;
-    /* margin-bottom: 16px; */
+    margin-bottom: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 154px;
-  }
-
-  .number-wrap {
-    float: left;
-    width: 50%;
+    gap: 8px;
   }
 
   .price-container {
-    float: left;
-    width: 50%;
-    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
   }
 
   .price-item-number {
@@ -132,6 +127,10 @@
     margin-bottom: 16px;
   }
 
+  .price-list-opportunities {
+    margin-bottom: 38px;
+  }
+
   .list-text {
     color: #22343d;
     font-family: Inter;
@@ -141,6 +140,10 @@
     letter-spacing: 0.01;
     text-align: center;
     padding-bottom: 16px;
+  }
+
+  .last-list-text {
+    padding-bottom: 0;
   }
 
   .price-section-btn {
@@ -165,6 +168,10 @@
   .page-container {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .price-section-item {
+    width: calc((100% - 144px) / 3);
   }
 
   .price-section-list {
